@@ -1,0 +1,31 @@
+%container{
+	// margin: 5px auto
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	width: calc(100% - 10px);
+}
+
+.#{$prefix}c{
+	@extend %container;
+}
+.#{$prefix}c-xs{
+	@extend %container;
+	max-width: 330px;
+}
+.#{$prefix}c-sm{
+	@extend %container;
+	max-width: 600px;
+}
+.#{$prefix}c-md{
+	@extend %container;
+	max-width: 800px;
+}
+.#{$prefix}c-lg{
+	@extend %container;
+	max-width: 1200px;
+}
+.#{$prefix}c-xl{
+	@extend %container;
+	max-width: 1900px
+}

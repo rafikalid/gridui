@@ -1,0 +1,18 @@
+// Rotation
+%rotate, .#{$prefix}rotate{
+	display: inline-block;
+	will-change: transform;
+	animation: gui-rotate 1s linear infinite;
+}
+	
+.reverse-rotate{
+	will-change: transform;
+	animation: cui-rotate $animate-slow linear reverse infinite;
+}
+
+// keyframes
+@keyframes gui-rotate{
+	to{
+		transform: rotate(360deg)
+	}
+}

@@ -1,0 +1,31 @@
+/***********
+ * POSITION
+ */
+%positionAbsolute{ position: absolute;}
+.#{$prefix}{
+	&-absolute{
+		@extend %positionAbsolute;
+	}
+	&-fixed{ position: fixed;}
+	&-relative{ position: relative;}
+	&-sticky{
+		position: -webkit-sticky;
+		position: sticky;
+	}
+}
+
+/***********
+* Float
+*/
+%clearfix{
+	&:after{
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+.#{$prefix}{
+	&-pull-left{float: left}
+	&-pull-right{float: right}
+	&-clearfix{@extend %clearfix; }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "gridui",
+  "version": "0.0.1",
+  "description": "CSS & Browser JS framework",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafikalid/gridui.git"
+  },
+  "keywords": [
+    "CSS",
+    "JS"
+  ],
+  "author": "khalid RAFIK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafikalid/gridui/issues"
+  },
+  "homepage": "https://github.com/rafikalid/gridui#readme",
+  "devDependencies": {
+    "@types/gulp": "^4.0.8",
+    "@types/gulp-sass": "^5.0.0",
+    "@types/gulp-sourcemaps": "^0.0.34",
+    "@types/json5": "^2.2.0",
+    "@types/mime-types": "^2.1.0",
+    "@types/sass": "^1.16.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "json5": "^2.2.0",
+    "sass": "^1.41.1",
+    "typescript": "^4.3.5"
+  }
+}

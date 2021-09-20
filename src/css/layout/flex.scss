@@ -1,0 +1,52 @@
+.#{$prefix}{
+	&flex{display: flex}
+	&iflex{display: inline-flex}
+
+	&f, &if{
+
+		&-row{
+			display: flex;
+			flex-direction: row;
+		}
+		&-col{
+			display: flex;
+			flex-direction: column;
+		}
+		// Flex all in middle
+		&-c{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		&-x{
+			display: flex;
+			justify-content: center;
+		}
+		&-y{
+			display: flex;
+			align-items: center;
+		}
+		// Flex end
+		&-c{
+			display: flex;
+			justify-content: flex-end;
+			align-items: flex-end;
+		}
+	}
+
+	/********
+	* Grow
+	*/
+	&grow1{flex-grow: 1}
+	&grow2{flex-grow: 2}
+	&grow3{flex-grow: 3}
+	
+	/********
+	* Shrink
+	*/
+	&shrink0{flex-shrink: 0}
+	&shrink1{flex-shrink: 1}
+	&shrink2{flex-shrink: 2}
+	
+
+}
